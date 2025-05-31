@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Main.module.css";
+import Calculator from "../Calculator/Calculator";
 
 const Main = () => {
   return (
@@ -19,6 +20,8 @@ const Main = () => {
         </p>
         <button>Рассчитать стоимость</button>
       </div>
+
+      <Calculator />
     </div>
     </div>
   );
